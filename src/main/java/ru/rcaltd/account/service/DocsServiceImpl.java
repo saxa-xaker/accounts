@@ -30,6 +30,7 @@ public class DocsServiceImpl implements DocsService {
         document_id.setDriver_id_type(document_id.getDriver_id_type());
         document_id.setDriver_id(document_id.getDriver_id());
         document_id.setDriver_id_number(document_id.getDriver_id_number());
+        document_id.setDriver_id_date(document_id.getDriver_id_date());
         document_id.setDocuments_in_package(document_id.getDocuments_in_package());
         document_id.setDocuments_type(document_id.getDocuments_type());
         document_id.setDocument_create_date(document_id.getDocument_create_date());

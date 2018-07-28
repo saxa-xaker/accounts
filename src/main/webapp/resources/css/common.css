@@ -5,7 +5,7 @@ body {
 }
 
 .form-signin {
-    max-width: 330px;
+    max-width: 1360px;
     padding: 15px;
     margin: 0 auto;
 }
@@ -46,4 +46,130 @@ body {
 .has-error {
     color: red
 }
+
+.form1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+}
+.form2{
+    position: relative;
+    left: 270px;
+    top: -54px;
+    width: 250px;
+}
+.form3{
+    position: relative;
+    left: 540px;
+    top: -108px;
+    width: 520px;
+}
+.form4{
+    position: relative;
+    left: 270px;
+    top: -53px;
+    width: 250px;
+}
+.form5{
+    position: relative;
+    left: 540px;
+    top: -107px;
+    width: 520px;
+}
+.form6{
+    position: relative;
+    left: 0px;
+    top: -6px;
+    width: 250px;
+}
+.form7{
+    position: relative;
+    left: 270px;
+    top: -60px;
+    width: 250px;
+}
+.form8{
+    position: relative;
+    left: 540px;
+    top: -114px;
+    width: 250px;
+}
+.form9{
+    position: relative;
+    left: 810px;
+    top: -168px;
+    width: 250px;
+}
+.form10{
+    position: relative;
+    left: 0px;
+    top: -56px;
+    width: 250px;
+}
+.form11{
+    position: relative;
+    left: 270px;
+    top: -110px;
+    width: 250px;
+}
+.form12{
+    position: relative;
+    left: 540px;
+    top: -166px;
+    width: 250px;
+}
+.form13{
+    position: relative;
+    left: 810px;
+    top: -219px;
+    width: 250px;
+}
+.form14{
+    position: relative;
+    left: 0px;
+    top: -270px;
+    width: 170px;}
+.form15{
+    position: absolute;
+}
+.form16{
+    position: absolute;
+}
+.form17{
+    position: absolute;
+}
+.form18{
+    position: absolute;
+}
+.form19{
+    position: absolute;
+}
+.form20{
+    position: absolute;
+}
+.form21{
+    position: absolute;
+}
+.form22{
+    position: absolute;
+}
+.form23{
+    position: absolute;
+}
+.form24{
+    position: absolute;
+}
+.form25{
+    position: absolute;
+}
+.form26{
+    position: absolute;
+}
+
+
+
+
+
+
 

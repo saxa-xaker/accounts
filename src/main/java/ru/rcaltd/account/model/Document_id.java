@@ -21,6 +21,7 @@ public class Document_id {
     private String driver_id_type;
     private String driver_id;
     private String driver_id_number;
+    private Date driver_id_date;
     private int documents_in_package;
     private String documents_type;
     private String document_create_date;
@@ -147,6 +148,13 @@ public class Document_id {
 
     public void setDriver_id_number(String driver_id_number) {
         this.driver_id_number = driver_id_number;
+    }
+
+
+    public Date getDriver_id_date() { return driver_id_date; }
+
+    public void setDriver_id_date(Date driver_id_date) {
+        this.driver_id_date = driver_id_date;
     }
 
 

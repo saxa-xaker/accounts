@@ -50,6 +50,7 @@ CREATE TABLE `document_id` (
   `driver_id_type` varchar(255) DEFAULT NULL,
   `driver_id` varchar(255) DEFAULT NULL,
   `driver_id_number` varchar(255) DEFAULT NULL,
+  `driver_id_date` varchar(255) DEFAULT NULL,
   `documents_in_package` varchar(255) DEFAULT NULL,
   `documents_type` varchar(255) DEFAULT NULL,
   `document_create_date` varchar(255) DEFAULT NULL,

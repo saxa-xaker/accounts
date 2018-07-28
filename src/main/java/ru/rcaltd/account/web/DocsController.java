@@ -40,7 +40,7 @@ public class DocsController {
         docsService.save(userForm);
 
 
-        return "redirect:/welcome";
+        return "redirect:/gruz";
     }
 
 }
