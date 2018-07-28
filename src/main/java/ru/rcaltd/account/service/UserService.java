@@ -1,6 +1,6 @@
-package com.hellokoding.account.service;
+package ru.rcaltd.account.service;
 
-import com.hellokoding.account.model.User;
+import ru.rcaltd.account.model.User;
 
 public interface UserService {
     void save(User user);

@@ -1,4 +1,4 @@
-package com.hellokoding.account.model;
+package ru.rcaltd.account.model;
 
 import javax.persistence.*;
 import java.util.Set;

@@ -1,9 +1,9 @@
-package com.hellokoding.account.web;
+package ru.rcaltd.account.web;
 
-import com.hellokoding.account.model.User;
-import com.hellokoding.account.service.SecurityService;
-import com.hellokoding.account.service.UserService;
-import com.hellokoding.account.validator.UserValidator;
+import ru.rcaltd.account.model.User;
+import ru.rcaltd.account.service.SecurityService;
+import ru.rcaltd.account.service.UserService;
+import ru.rcaltd.account.validator.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

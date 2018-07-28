@@ -32,6 +32,41 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 --
+-- Table structure for table `document_id`
+--
+
+DROP TABLE IF EXISTS `document_id`;
+CREATE TABLE `document_id` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `insurant` varchar(255) DEFAULT NULL,
+  `shipper` varchar(255) DEFAULT NULL,
+  `consignee` varchar(255) DEFAULT NULL,
+  `transporter` varchar(255) DEFAULT NULL,
+  `departure_point` varchar(255) DEFAULT NULL,
+  `destination_point` varchar(255) DEFAULT NULL,
+  `vehicle_type` varchar(255) DEFAULT NULL,
+  `car_number` varchar(255) DEFAULT NULL,
+  `trailer_number` varchar(255) DEFAULT NULL,
+  `driver_id_type` varchar(255) DEFAULT NULL,
+  `driver_id` varchar(255) DEFAULT NULL,
+  `driver_id_number` varchar(255) DEFAULT NULL,
+  `documents_in_package` varchar(255) DEFAULT NULL,
+  `documents_type` varchar(255) DEFAULT NULL,
+  `document_create_date` varchar(255) DEFAULT NULL,
+  `number_of_products` varchar(255) DEFAULT NULL,
+  `number_of_seats` varchar(255) DEFAULT NULL,
+  `cargo_gross_weight` varchar(255) DEFAULT NULL,
+  `hs_code` varchar(255) DEFAULT NULL,
+  `goods_description` varchar(255) DEFAULT NULL,
+  `item_weight` varchar(255) DEFAULT NULL,
+  `goods_cost` varchar(255) DEFAULT NULL,
+  `currency` varchar(255) DEFAULT NULL,
+  `start_contract_date` varchar(255) DEFAULT NULL,
+  `end_contract_date` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+--
 -- Table structure for table `user_role`
 --
 

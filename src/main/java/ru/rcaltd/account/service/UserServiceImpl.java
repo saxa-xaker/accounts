@@ -1,8 +1,8 @@
-package com.hellokoding.account.service;
+package ru.rcaltd.account.service;
 
-import com.hellokoding.account.model.User;
-import com.hellokoding.account.repository.RoleRepository;
-import com.hellokoding.account.repository.UserRepository;
+import ru.rcaltd.account.model.User;
+import ru.rcaltd.account.repository.RoleRepository;
+import ru.rcaltd.account.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

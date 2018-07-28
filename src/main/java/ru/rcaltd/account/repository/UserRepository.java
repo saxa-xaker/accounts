@@ -1,6 +1,6 @@
-package com.hellokoding.account.repository;
+package ru.rcaltd.account.repository;
 
-import com.hellokoding.account.model.User;
+import ru.rcaltd.account.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {
