@@ -110,7 +110,7 @@ body {
 .form11{
     position: relative;
     left: 270px;
-    top: -110px;
+    top: -111px;
     width: 250px;
 }
 .form12{
@@ -122,54 +122,113 @@ body {
 .form13{
     position: relative;
     left: 810px;
-    top: -219px;
+    top: -220px;
     width: 250px;
 }
 .form14{
     position: relative;
     left: 0px;
-    top: -270px;
-    width: 170px;}
+    top: -0px;
+    width:170px;
+}
 .form15{
-    position: absolute;
+    position: relative;
+    left: 190px;
+    top: -55px;
+    width: 330px;
 }
 .form16{
-    position: absolute;
+    position: relative;
+    left: 540px;
+    top: -109px;
+    width: 250px;
 }
 .form17{
-    position: absolute;
+    position: relative;
+    left: 810px;
+    top: -164px;
+    width: 250px;
 }
 .form18{
-    position: absolute;
+    position: relative;
+    left: 190px;
+    top: -0px;
+    width:170px;
 }
 .form19{
-    position: absolute;
+    position: relative;
+    left: 380px;
+    top: -54px;
+    width:170px;
 }
 .form20{
-    position: absolute;
+    position: relative;
+    left: 570px;
+    top: -108px;
+    width:170px;
 }
 .form21{
-    position: absolute;
+    position: relative;
+    left: 0px;
+    top: -0px;
+    width:170px;
 }
 .form22{
-    position: absolute;
+    position: relative;
+    left: 190px;
+    top: -54px;
+    width: 290px;
+    height: 100px;
 }
 .form23{
-    position: absolute;
-}
+    position: relative;
+    left: 500px;
+    top: -164px;
+    width: 170px;}
 .form24{
-    position: absolute;
-}
+    position: relative;
+    left: 690px;
+    top: -218px;
+    width:170px;}
 .form25{
-    position: absolute;
+    position: relative;
+    left: 880px;
+    top: -272px;
+    width:180px;
 }
 .form26{
-    position: absolute;
+    position: relative;
+    left: 0px;
+    top: -0px;
+    width:250px;
+}
+.form27{
+    position: relative;
+    left: 270px;
+    top: -66px;
+    width:250px;
 }
 
+.btn-place{
+    position: relative;
+    left: 20px;
+    top: 680px;
+    width:250px;
+}
 
+.btn-place2{
+    position: relative;
+    left: 800px;
+    top: 620px;
+    width:250px;
+}
 
+.ui-widget{
 
-
+    position: relative;
+    left: 0px;
+    top: 90px;
+    width:250px;
+}
 
 

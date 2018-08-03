@@ -1,10 +1,11 @@
 package ru.rcaltd.account.service;
 
-import ru.rcaltd.account.model.Document_id;
+import ru.rcaltd.account.model.DocumentId;
 
 public interface DocsService {
-    void save(Document_id document_id);
+    void save(DocumentId document_id);
 
-    Document_id findById(Long id);
+    DocumentId findById(Long id);
+    DocumentId findByInsurant(String insurant);
 
 }
