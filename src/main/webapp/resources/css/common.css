@@ -47,176 +47,556 @@ body {
     color: red
 }
 
-.form1{
+.form-gruz1{
     position: relative;
     left: 0px;
     top: 0px;
     width: 250px;
 }
-.form2{
+.form-gruz2{
     position: relative;
     left: 270px;
     top: -54px;
     width: 250px;
 }
-.form3{
+.form-gruz3{
     position: relative;
     left: 540px;
     top: -108px;
     width: 520px;
 }
-.form4{
+.form-gruz4{
     position: relative;
     left: 270px;
     top: -53px;
     width: 250px;
 }
-.form5{
+.form-gruz5{
     position: relative;
     left: 540px;
     top: -107px;
     width: 520px;
 }
-.form6{
+.form-gruz6{
     position: relative;
     left: 0px;
     top: -6px;
     width: 250px;
 }
-.form7{
+.form-gruz7{
     position: relative;
     left: 270px;
     top: -60px;
     width: 250px;
 }
-.form8{
+.form-gruz8{
     position: relative;
     left: 540px;
     top: -114px;
     width: 250px;
 }
-.form9{
+.form-gruz9{
     position: relative;
     left: 810px;
     top: -168px;
     width: 250px;
 }
-.form10{
+.form-gruz10{
     position: relative;
     left: 0px;
     top: -56px;
     width: 250px;
 }
-.form11{
+.form-gruz11{
     position: relative;
     left: 270px;
     top: -111px;
     width: 250px;
 }
-.form12{
+.form-gruz12{
     position: relative;
     left: 540px;
     top: -166px;
     width: 250px;
 }
-.form13{
+.form-gruz13{
     position: relative;
     left: 810px;
     top: -220px;
     width: 250px;
 }
-.form14{
+.form-gruz14{
     position: relative;
     left: 0px;
     top: -0px;
     width:170px;
 }
-.form15{
+.form-gruz15{
     position: relative;
     left: 190px;
     top: -55px;
     width: 330px;
 }
-.form16{
+.form-gruz16{
     position: relative;
     left: 540px;
     top: -109px;
     width: 250px;
 }
-.form17{
+.form-gruz17{
     position: relative;
     left: 810px;
     top: -164px;
     width: 250px;
 }
-.form18{
+.form-gruz18{
     position: relative;
     left: 190px;
     top: -0px;
     width:170px;
 }
-.form19{
+.form-gruz19{
     position: relative;
     left: 380px;
     top: -54px;
     width:170px;
 }
-.form20{
+.form-gruz20{
     position: relative;
     left: 570px;
     top: -108px;
     width:170px;
 }
-.form21{
+.form-gruz21{
     position: relative;
     left: 0px;
     top: -0px;
     width:170px;
 }
-.form22{
+.form-gruz22{
     position: relative;
     left: 190px;
     top: -54px;
     width: 290px;
     height: 100px;
 }
-.form23{
+.form-gruz23{
     position: relative;
     left: 500px;
     top: -164px;
     width: 170px;}
-.form24{
+.form-gruz24{
     position: relative;
     left: 690px;
     top: -218px;
     width:170px;}
-.form25{
+.form-gruz25{
     position: relative;
     left: 880px;
     top: -272px;
     width:180px;
 }
-.form26{
+.form-gruz26{
     position: relative;
     left: 0px;
     top: -0px;
     width:250px;
 }
-.form27{
+.form-gruz27{
     position: relative;
     left: 270px;
     top: -66px;
     width:250px;
 }
 
-.btn-place{
+
+
+
+
+
+
+
+
+
+
+
+.form-arbitr1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 520px;
+}
+.form-arbitr2{
+    position: relative;
+    left: 540px;
+    top: -54px;
+    width: 330px;
+}
+.form-arbitr3{
+    position: relative;
+    left: 0px;
+    top: -100px;
+    width: 520px;
+}
+.form-arbitr4{
+    position: relative;
+    left: 540px;
+    top: -154px;
+    width: 170px;
+}
+.form-arbitr5{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 170px;
+}
+.form-arbitr6{
+    position: relative;
+    left: 190px;
+    top: -54px;
+    width: 170px;
+}
+.form-arbitr7{
+    position: relative;
+    left: 380px;
+    top: -122px;
+    width: 170px;
+}
+.form-arbitr8{
+    position: relative;
+    left: 540px;
+    top: -114px;
+    width: 250px;
+}
+.form-arbitr9{
+    position: relative;
+    left: 810px;
+    top: -168px;
+    width: 250px;
+}
+.form-arbitr10{
+    position: relative;
+    left: 0px;
+    top: -56px;
+    width: 250px;
+}
+
+.form-arbitr11{
+    position: relative;
+    left: 270px;
+    top: -111px;
+    width: 250px;
+}
+.form-arbitr12{
+    position: relative;
+    left: 540px;
+    top: -166px;
+    width: 250px;
+}
+.form-arbitr13{
+    position: relative;
+    left: 810px;
+    top: -220px;
+    width: 250px;
+}
+.form-arbitr14{
+    position: relative;
+    left: 0px;
+    top: -0px;
+    width:170px;
+}
+.form-arbitr15{
+    position: relative;
+    left: 190px;
+    top: -55px;
+    width: 330px;
+}
+.form-arbitr16{
+    position: relative;
+    left: 540px;
+    top: -109px;
+    width: 250px;
+}
+.form-arbitr17{
+    position: relative;
+    left: 810px;
+    top: -164px;
+    width: 250px;
+}
+.form-arbitr18{
+    position: relative;
+    left: 190px;
+    top: -0px;
+    width:170px;
+}
+.form-arbitr19{
+    position: relative;
+    left: 380px;
+    top: -54px;
+    width:170px;
+}
+.form-arbitr20{
+    position: relative;
+    left: 570px;
+    top: -108px;
+    width:170px;
+}
+
+.form-arbitr21{
+    position: relative;
+    left: 0px;
+    top: -0px;
+    width:170px;
+}
+.form-arbitr22{
+    position: relative;
+    left: 190px;
+    top: -54px;
+    width: 290px;
+    height: 100px;
+}
+.form-arbitr23{
+    position: relative;
+    left: 500px;
+    top: -164px;
+    width: 170px;
+}
+.form-arbitr24{
+    position: relative;
+    left: 690px;
+    top: -218px;
+    width:170px;
+}
+.form-arbitr25{
+    position: relative;
+    left: 880px;
+    top: -272px;
+    width:180px;
+}
+.form-arbitr26{
+    position: relative;
+    left: 0px;
+    top: -0px;
+    width:250px;
+}
+.form-arbitr27{
+    position: relative;
+    left: 270px;
+    top: -66px;
+    width:250px;
+}
+.form-arbitr28{
+    position: relative;
+    left: 540px;
+    top: -114px;
+    width: 250px;
+}
+.form-arbitr29{
+    position: relative;
+    left: 810px;
+    top: -168px;
+    width: 250px;
+}
+.form-arbitr30{
+    position: relative;
+    left: 0px;
+    top: -56px;
+    width: 250px;
+}
+
+.form-arbitr31{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+}
+.form-arbitr32{
+    position: relative;
+    left: 270px;
+    top: -54px;
+    width: 250px;
+}
+.form-arbitr33{
+    position: relative;
+    left: 540px;
+    top: -108px;
+    width: 520px;
+}
+.form-arbitr34{
+    position: relative;
+    left: 270px;
+    top: -53px;
+    width: 250px;
+}
+.form-arbitr35{
+    position: relative;
+    left: 540px;
+    top: -107px;
+    width: 520px;
+}
+.form-arbitr36{
+    position: relative;
+    left: 0px;
+    top: -6px;
+    width: 250px;
+}
+.form-arbitr37{
+    position: relative;
+    left: 270px;
+    top: -60px;
+    width: 250px;
+}
+.form-arbitr38{
+    position: relative;
+    left: 540px;
+    top: -114px;
+    width: 250px;
+}
+.form-arbitr39{
+    position: relative;
+    left: 810px;
+    top: -168px;
+    width: 250px;
+}
+.form-arbitr40{
+    position: relative;
+    left: 0px;
+    top: -56px;
+    width: 250px;
+}
+
+.form-arbitr41{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+}
+.form-arbitr42{
+    position: relative;
+    left: 270px;
+    top: -54px;
+    width: 250px;
+}
+.form-arbitr43{
+    position: relative;
+    left: 540px;
+    top: -108px;
+    width: 520px;
+}
+.form-arbitr44{
+    position: relative;
+    left: 270px;
+    top: -53px;
+    width: 250px;
+}
+.form-arbitr45{
+    position: relative;
+    left: 540px;
+    top: -107px;
+    width: 520px;
+}
+.form-arbitr46{
+    position: relative;
+    left: 0px;
+    top: -6px;
+    width: 250px;
+}
+.form-arbitr47{
+    position: relative;
+    left: 270px;
+    top: -60px;
+    width: 250px;
+}
+.form-arbitr48{
+    position: relative;
+    left: 540px;
+    top: -114px;
+    width: 250px;
+}
+.form-arbitr49{
+    position: relative;
+    left: 810px;
+    top: -168px;
+    width: 250px;
+}
+.form-arbitr50{
+    position: relative;
+    left: 0px;
+    top: -56px;
+    width: 250px;
+}
+
+.form-arbitr51{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+}
+.form-arbitr52{
+    position: relative;
+    left: 270px;
+    top: -54px;
+    width: 250px;
+}
+.form-arbitr53{
+    position: relative;
+    left: 540px;
+    top: -108px;
+    width: 520px;
+}
+.form-arbitr54{
+    position: relative;
+    left: 270px;
+    top: -53px;
+    width: 250px;
+}
+.form-arbitr55{
+    position: relative;
+    left: 540px;
+    top: -107px;
+    width: 520px;
+}
+.form-arbitr56{
+    position: relative;
+    left: 0px;
+    top: -6px;
+    width: 250px;
+}
+.form-arbitr57{
+    position: relative;
+    left: 270px;
+    top: -60px;
+    width: 250px;
+}
+.form-arbitr58{
+    position: relative;
+    left: 540px;
+    top: -114px;
+    width: 250px;
+}
+.form-arbitr59{
+    position: relative;
+    left: 810px;
+    top: -168px;
+    width: 250px;
+}
+.form-arbitr60{
+    position: relative;
+    left: 0px;
+    top: -56px;
+    width: 250px;
+}
+
+
+
+.btn-gruz-place{
     position: relative;
     left: 20px;
     top: 680px;
     width:250px;
 }
 
-.btn-place2{
+.btn-gruz-place2{
     position: relative;
     left: 800px;
     top: 620px;

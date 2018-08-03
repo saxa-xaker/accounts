@@ -34,7 +34,8 @@
         <h2>Привет ${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()">Logout</a></h2>
 
 
-        <a href="gruz">GRUZ</a>
+        <a href="gruz">GRUZ</a><br />
+        <a href="arbitr">Arbitr</a>
     </c:if>
 </div>
 
