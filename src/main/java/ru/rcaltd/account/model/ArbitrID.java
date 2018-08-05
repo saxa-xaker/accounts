@@ -94,202 +94,198 @@ public class ArbitrID {
     private boolean is_russian_agent;
 
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-
 
     public Long getId() {
         return id;
     }
 
-        public void setId(Long id) {
+    public void setId(Long id) {
         this.id = id;
     }
-
 
     public String getArbitr_uprav_id() {
         return arbitr_uprav_id;
     }
 
-        public void setArbitr_uprav_id(String arbitr_uprav_id) {
+    public void setArbitr_uprav_id(String arbitr_uprav_id) {
         this.arbitr_uprav_id = arbitr_uprav_id;
     }
-
 
     public String getCitizenship() {
         return citizenship;
     }
 
-        public void setCitizenship(String citizenship) {
+    public void setCitizenship(String citizenship) {
         this.citizenship = citizenship;
     }
 
+    public String getBirthplace() {
+        return birthplace;
+    }
 
-    public String getBirthplace() { return birthplace; }
-
-        public void setBirthplace(String birthplace) {
+    public void setBirthplace(String birthplace) {
         this.birthplace = birthplace;
     }
 
-
-    public Date getBirthdate() { return birthdate;}
-
-        public void setBirthdate(Date birthdate) {
-        this.birthdate = birthdate;
+    public Date getBirthdate() {
+        return birthdate;
     }
 
+    public void setBirthdate(Date birthdate) {
+        this.birthdate = birthdate;
+    }
 
     public String getDocument_type() {
         return document_type;
     }
 
-        public void setDocument_type(String document_type) {
+    public void setDocument_type(String document_type) {
         this.document_type = document_type;
     }
 
-
-    public String getDocument_id_number() { return document_id_number; }
-
-        public void setDocument_id_number(String document_id_number) {
-        this.document_id_number = document_id_number;
+    public String getDocument_id_number() {
+        return document_id_number;
     }
 
+    public void setDocument_id_number(String document_id_number) {
+        this.document_id_number = document_id_number;
+    }
 
     public Date getDocument_id_date() {
         return document_id_date;
     }
 
-        public void setDocument_id_date(Date document_id_date) {
+    public void setDocument_id_date(Date document_id_date) {
         this.document_id_date = document_id_date;
     }
-
 
     public String getDocument_id_by() {
         return document_id_by;
     }
 
-        public void setDocument_id_by(String document_id_by) {
+    public void setDocument_id_by(String document_id_by) {
         this.document_id_by = document_id_by;
     }
 
-
-    public String getDocument_id_code() { return document_id_code; }
-
-        public void setDocument_id_code(String document_id_code) {
-        this.document_id_code = document_id_code;
+    public String getDocument_id_code() {
+        return document_id_code;
     }
 
+    public void setDocument_id_code(String document_id_code) {
+        this.document_id_code = document_id_code;
+    }
 
     public String getRegistration_address() {
         return registration_address;
     }
 
-        public void setRegistration_address(String registration_address) { this.registration_address = registration_address; }
-
+    public void setRegistration_address(String registration_address) {
+        this.registration_address = registration_address;
+    }
 
     public String getRegistration_address_fact() {
         return registration_address_fact;
     }
 
-        public void setRegistration_address_fact(String registration_address_fact) {
+    public void setRegistration_address_fact(String registration_address_fact) {
         this.registration_address_fact = registration_address_fact;
     }
 
+    public String getAddress_for_documents() {
+        return address_for_documents;
+    }
 
-    public String getAddress_for_documents() { return address_for_documents; }
-
-        public void setAddress_for_documents(String address_for_documents) {
+    public void setAddress_for_documents(String address_for_documents) {
         this.address_for_documents = address_for_documents;
     }
 
+    public String getInn() {
+        return inn;
+    }
 
-    public String getInn() { return inn; }
-
-        public void setInn(String inn) {
+    public void setInn(String inn) {
         this.inn = inn;
     }
 
+    public String getTel_number() {
+        return tel_number;
+    }
 
-
-    public String getTel_number() { return tel_number; }
-
-        public void setTel_number(String tel_number) {
+    public void setTel_number(String tel_number) {
         this.tel_number = tel_number;
     }
 
-
-    public String getEmail_address() { return email_address; }
-
-        public void setEmail_address(String email_address) { this.email_address = email_address;}
-
-
-    public String getEducation_base() { return education_base; }
-
-        public void setEducation_base(String education_base) {
-        this.education_base = education_base;
+    public String getEmail_address() {
+        return email_address;
     }
 
+    public void setEmail_address(String email_address) {
+        this.email_address = email_address;
+    }
+
+    public String getEducation_base() {
+        return education_base;
+    }
+
+    public void setEducation_base(String education_base) {
+        this.education_base = education_base;
+    }
 
     public String getEducation_higher() {
         return education_higher;
     }
 
-        public void setEducation_higher(String education_higher) {
+    public void setEducation_higher(String education_higher) {
         this.education_higher = education_higher;
     }
-
 
     public String getSro_name() {
         return sro_name;
     }
 
-        public void setSro_name(String sro_name) {
+    public void setSro_name(String sro_name) {
         this.sro_name = sro_name;
     }
-
 
     public String getSro_document_name() {
         return sro_document_name;
     }
 
-        public void setSro_document_name(String sro_document_name) {
+    public void setSro_document_name(String sro_document_name) {
         this.sro_document_name = sro_document_name;
     }
-
 
     public String getSro_document_number() {
         return sro_document_number;
     }
 
-        public void setSro_document_number(String sro_document_number) {
+    public void setSro_document_number(String sro_document_number) {
         this.sro_document_number = sro_document_number;
     }
-
 
     public Date getSro_document_date() {
         return sro_document_date;
     }
 
-        public void setSro_document_date(Date sro_document_date) {
+    public void setSro_document_date(Date sro_document_date) {
         this.sro_document_date = sro_document_date;
     }
-
 
     public String getSro_last_workplace() {
         return sro_last_workplace;
     }
 
-        public void setSro_last_workplace(String sro_last_workplace) {
+    public void setSro_last_workplace(String sro_last_workplace) {
         this.sro_last_workplace = sro_last_workplace;
     }
-
 
     public Date getArbitr_start_work_date() {
         return arbitr_start_work_date;
     }
 
-        public void setArbitr_start_work_date(Date arbitr_start_work_date) {
+    public void setArbitr_start_work_date(Date arbitr_start_work_date) {
         this.arbitr_start_work_date = arbitr_start_work_date;
     }
 
@@ -297,7 +293,7 @@ public class ArbitrID {
         return count_of_works;
     }
 
-        public void setCount_of_works(int count_of_works) {
+    public void setCount_of_works(int count_of_works) {
         this.count_of_works = count_of_works;
     }
 
@@ -305,7 +301,7 @@ public class ArbitrID {
         return temp_manager_count;
     }
 
-        public void setTemp_manager_count(int temp_manager_count) {
+    public void setTemp_manager_count(int temp_manager_count) {
         this.temp_manager_count = temp_manager_count;
     }
 
@@ -313,7 +309,7 @@ public class ArbitrID {
         return admin_manager_count;
     }
 
-        public void setAdmin_manager_count(int admin_manager_count) {
+    public void setAdmin_manager_count(int admin_manager_count) {
         this.admin_manager_count = admin_manager_count;
     }
 
@@ -321,7 +317,7 @@ public class ArbitrID {
         return outdoor_manager_count;
     }
 
-        public void setOutdoor_manager_count(int outdoor_manager_count) {
+    public void setOutdoor_manager_count(int outdoor_manager_count) {
         this.outdoor_manager_count = outdoor_manager_count;
     }
 
@@ -329,7 +325,7 @@ public class ArbitrID {
         return tender_manager_count;
     }
 
-        public void setTender_manager_count(int tender_manager_count) {
+    public void setTender_manager_count(int tender_manager_count) {
         this.tender_manager_count = tender_manager_count;
     }
 
@@ -337,7 +333,7 @@ public class ArbitrID {
         return bankrot_company_name;
     }
 
-        public void setBankrot_company_name(String bankrot_company_name) {
+    public void setBankrot_company_name(String bankrot_company_name) {
         this.bankrot_company_name = bankrot_company_name;
     }
 
@@ -345,7 +341,7 @@ public class ArbitrID {
         return bankrot_company_address;
     }
 
-        public void setBankrot_company_address(String bankrot_company_address) {
+    public void setBankrot_company_address(String bankrot_company_address) {
         this.bankrot_company_address = bankrot_company_address;
     }
 
@@ -353,7 +349,7 @@ public class ArbitrID {
         return bankrot_company_case_number;
     }
 
-        public void setBankrot_company_case_number(int bankrot_company_case_number) {
+    public void setBankrot_company_case_number(int bankrot_company_case_number) {
         this.bankrot_company_case_number = bankrot_company_case_number;
     }
 
@@ -361,7 +357,7 @@ public class ArbitrID {
         return bankrot_procedure_type;
     }
 
-        public void setBankrot_procedure_type(String bankrot_procedure_type) {
+    public void setBankrot_procedure_type(String bankrot_procedure_type) {
         this.bankrot_procedure_type = bankrot_procedure_type;
     }
 
@@ -369,7 +365,7 @@ public class ArbitrID {
         return bankrot_start_date_manage;
     }
 
-        public void setBankrot_start_date_manage(Date bankrot_start_date_manage) {
+    public void setBankrot_start_date_manage(Date bankrot_start_date_manage) {
         this.bankrot_start_date_manage = bankrot_start_date_manage;
     }
 
@@ -377,7 +373,7 @@ public class ArbitrID {
         return bankrot_end_date_manage;
     }
 
-        public void setBankrot_end_date_manage(Date bankrot_end_date_manage) {
+    public void setBankrot_end_date_manage(Date bankrot_end_date_manage) {
         this.bankrot_end_date_manage = bankrot_end_date_manage;
     }
 
@@ -385,7 +381,7 @@ public class ArbitrID {
         return complete_procedure_temp_manager;
     }
 
-        public void setComplete_procedure_temp_manager(int complete_procedure_temp_manager) {
+    public void setComplete_procedure_temp_manager(int complete_procedure_temp_manager) {
         this.complete_procedure_temp_manager = complete_procedure_temp_manager;
     }
 
@@ -393,7 +389,7 @@ public class ArbitrID {
         return complete_procedure_admin_manager;
     }
 
-        public void setComplete_procedure_admin_manager(int complete_procedure_admin_manager) {
+    public void setComplete_procedure_admin_manager(int complete_procedure_admin_manager) {
         this.complete_procedure_admin_manager = complete_procedure_admin_manager;
     }
 
@@ -401,7 +397,7 @@ public class ArbitrID {
         return complete_procedure_outdoor_manager;
     }
 
-        public void setComplete_procedure_outdoor_manager(int complete_procedure_outdoor_manager) {
+    public void setComplete_procedure_outdoor_manager(int complete_procedure_outdoor_manager) {
         this.complete_procedure_outdoor_manager = complete_procedure_outdoor_manager;
     }
 
@@ -409,7 +405,7 @@ public class ArbitrID {
         return complete_procedure_tender_manager;
     }
 
-        public void setComplete_procedure_tender_manager(int complete_procedure_tender_manager) {
+    public void setComplete_procedure_tender_manager(int complete_procedure_tender_manager) {
         this.complete_procedure_tender_manager = complete_procedure_tender_manager;
     }
 
@@ -417,7 +413,7 @@ public class ArbitrID {
         return count_of_amicable_agreement_temp_manager;
     }
 
-        public void setCount_of_amicable_agreement_temp_manager(int count_of_amicable_agreement_temp_manager) {
+    public void setCount_of_amicable_agreement_temp_manager(int count_of_amicable_agreement_temp_manager) {
         this.count_of_amicable_agreement_temp_manager = count_of_amicable_agreement_temp_manager;
     }
 
@@ -425,7 +421,7 @@ public class ArbitrID {
         return count_of_amicable_agreement_admin_manager;
     }
 
-        public void setCount_of_amicable_agreement_admin_manager(int count_of_amicable_agreement_admin_manager) {
+    public void setCount_of_amicable_agreement_admin_manager(int count_of_amicable_agreement_admin_manager) {
         this.count_of_amicable_agreement_admin_manager = count_of_amicable_agreement_admin_manager;
     }
 
@@ -433,7 +429,7 @@ public class ArbitrID {
         return count_of_amicable_agreement_outdoor_manager;
     }
 
-        public void setCount_of_amicable_agreement_outdoor_manager(int count_of_amicable_agreement_outdoor_manager) {
+    public void setCount_of_amicable_agreement_outdoor_manager(int count_of_amicable_agreement_outdoor_manager) {
         this.count_of_amicable_agreement_outdoor_manager = count_of_amicable_agreement_outdoor_manager;
     }
 
@@ -441,15 +437,15 @@ public class ArbitrID {
         return count_of_amicable_agreement_tender_manager;
     }
 
-        public void setCount_of_amicable_agreement_tender_manager(int count_of_amicable_agreement_tender_manager) {
+    public void setCount_of_amicable_agreement_tender_manager(int count_of_amicable_agreement_tender_manager) {
         this.count_of_amicable_agreement_tender_manager = count_of_amicable_agreement_tender_manager;
     }
 
-    public boolean getIsViolation_discharge_of_manager() {
+    public boolean isIs_violation_discharge_of_manager() {
         return is_violation_discharge_of_manager;
     }
 
-        public void setIsViolation_discharge_of_manager(boolean is_violation_discharge_of_manager) {
+    public void setIs_violation_discharge_of_manager(boolean is_violation_discharge_of_manager) {
         this.is_violation_discharge_of_manager = is_violation_discharge_of_manager;
     }
 
@@ -457,15 +453,15 @@ public class ArbitrID {
         return violation_discharge_of_manager_detailed;
     }
 
-        public void setViolation_discharge_of_manager_detailed(String violation_discharge_of_manager_detailed) {
+    public void setViolation_discharge_of_manager_detailed(String violation_discharge_of_manager_detailed) {
         this.violation_discharge_of_manager_detailed = violation_discharge_of_manager_detailed;
     }
 
-    public boolean getIsViolation_law_manager() {
+    public boolean isIs_violation_law_manager() {
         return is_violation_law_manager;
     }
 
-        public void setIsViolation_law_manager(boolean is_violation_law_manager) {
+    public void setIs_violation_law_manager(boolean is_violation_law_manager) {
         this.is_violation_law_manager = is_violation_law_manager;
     }
 
@@ -473,15 +469,15 @@ public class ArbitrID {
         return violation_law_manager_detailed;
     }
 
-        public void setViolation_law_manager_detailed(String violation_law_manager_detailed) {
+    public void setViolation_law_manager_detailed(String violation_law_manager_detailed) {
         this.violation_law_manager_detailed = violation_law_manager_detailed;
     }
 
-    public boolean getIsViolation_requirement_compensation_harm_manager() {
+    public boolean isIs_violation_requirement_compensation_harm_manager() {
         return is_violation_requirement_compensation_harm_manager;
     }
 
-        public void setIsViolation_requirement_compensation_harm_manager(boolean is_violation_requirement_compensation_harm_manager) {
+    public void setIs_violation_requirement_compensation_harm_manager(boolean is_violation_requirement_compensation_harm_manager) {
         this.is_violation_requirement_compensation_harm_manager = is_violation_requirement_compensation_harm_manager;
     }
 
@@ -489,15 +485,15 @@ public class ArbitrID {
         return violation_requirement_compensation_harm_manager_detailed;
     }
 
-        public void setViolation_requirement_compensation_harm_manager_detailed(String violation_requirement_compensation_harm_manager_detailed) {
+    public void setViolation_requirement_compensation_harm_manager_detailed(String violation_requirement_compensation_harm_manager_detailed) {
         this.violation_requirement_compensation_harm_manager_detailed = violation_requirement_compensation_harm_manager_detailed;
     }
 
-    public boolean getIsViolation_pending_complaints() {
+    public boolean isIs_violation_pending_complaints() {
         return is_violation_pending_complaints;
     }
 
-        public void setIsViolation_pending_complaints(boolean is_violation_pending_complaints) {
+    public void setIs_violation_pending_complaints(boolean is_violation_pending_complaints) {
         this.is_violation_pending_complaints = is_violation_pending_complaints;
     }
 
@@ -505,15 +501,15 @@ public class ArbitrID {
         return violation_pending_complaints_detailed;
     }
 
-        public void setViolation_pending_complaints_detailed(String violation_pending_complaints_detailed) {
+    public void setViolation_pending_complaints_detailed(String violation_pending_complaints_detailed) {
         this.violation_pending_complaints_detailed = violation_pending_complaints_detailed;
     }
 
-    public boolean getIsViolation_complaints_considered() {
+    public boolean isIs_violation_complaints_considered() {
         return is_violation_complaints_considered;
     }
 
-        public void setIsViolation_complaints_considered(boolean is_violation_complaints_considered) {
+    public void setIs_violation_complaints_considered(boolean is_violation_complaints_considered) {
         this.is_violation_complaints_considered = is_violation_complaints_considered;
     }
 
@@ -521,15 +517,15 @@ public class ArbitrID {
         return violation_complaints_considered_detailed;
     }
 
-        public void setViolation_complaints_considered_detailed(String violation_complaints_considered_detailed) {
+    public void setViolation_complaints_considered_detailed(String violation_complaints_considered_detailed) {
         this.violation_complaints_considered_detailed = violation_complaints_considered_detailed;
     }
 
-    public boolean getIsViolation_intresting_information() {
+    public boolean isIs_violation_intresting_information() {
         return is_violation_intresting_information;
     }
 
-        public void setIsViolation_intresting_information(boolean is_violation_intresting_information) {
+    public void setIs_violation_intresting_information(boolean is_violation_intresting_information) {
         this.is_violation_intresting_information = is_violation_intresting_information;
     }
 
@@ -537,15 +533,15 @@ public class ArbitrID {
         return violation_intresting_information_detailed;
     }
 
-        public void setViolation_intresting_information_detailed(String violation_intresting_information_detailed) {
+    public void setViolation_intresting_information_detailed(String violation_intresting_information_detailed) {
         this.violation_intresting_information_detailed = violation_intresting_information_detailed;
     }
 
-    public boolean getIsInsurance_before() {
+    public boolean isIs_insurance_before() {
         return is_insurance_before;
     }
 
-        public void setIsInsurance_before(boolean is_insurance_before) {
+    public void setIs_insurance_before(boolean is_insurance_before) {
         this.is_insurance_before = is_insurance_before;
     }
 
@@ -589,11 +585,11 @@ public class ArbitrID {
         this.insurance_before_compensation = insurance_before_compensation;
     }
 
-    public boolean getIsInsurance_current() {
+    public boolean isIs_insurance_current() {
         return is_insurance_current;
     }
 
-        public void setIsInsurance_current(boolean is_insurance_current) {
+        public void setIs_insurance_current(boolean is_insurance_current) {
         this.is_insurance_current = is_insurance_current;
     }
 
@@ -653,7 +649,7 @@ public class ArbitrID {
         this.insurance_conditions_end_date = insurance_conditions_end_date;
     }
 
-    public boolean getIs_foreign_agent() {
+    public boolean isIs_foreign_agent() {
         return is_foreign_agent;
     }
 
@@ -661,7 +657,7 @@ public class ArbitrID {
         this.is_foreign_agent = is_foreign_agent;
     }
 
-    public boolean getIs_international_agent() {
+    public boolean isIs_international_agent() {
         return is_international_agent;
     }
 
@@ -669,7 +665,7 @@ public class ArbitrID {
         this.is_international_agent = is_international_agent;
     }
 
-    public boolean getIs_russian_agent() {
+    public boolean isIs_russian_agent() {
         return is_russian_agent;
     }
 

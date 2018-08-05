@@ -58,26 +58,26 @@ public class ArbitrServiceImpl implements ArbitrService {
         arbitrID.setCount_of_amicable_agreement_admin_manager(arbitrID.getCount_of_amicable_agreement_admin_manager());
         arbitrID.setCount_of_amicable_agreement_outdoor_manager(arbitrID.getCount_of_amicable_agreement_outdoor_manager());
         arbitrID.setCount_of_amicable_agreement_tender_manager(arbitrID.getCount_of_amicable_agreement_tender_manager());
-        arbitrID.setIsViolation_discharge_of_manager(arbitrID.getIsViolation_discharge_of_manager());
+        arbitrID.setIs_violation_discharge_of_manager(arbitrID.isIs_violation_discharge_of_manager());
         arbitrID.setViolation_discharge_of_manager_detailed(arbitrID.getViolation_discharge_of_manager_detailed());
-        arbitrID.setIsViolation_law_manager(arbitrID.getIsViolation_law_manager());
+        arbitrID.setIs_violation_law_manager(arbitrID.isIs_violation_law_manager());
         arbitrID.setViolation_law_manager_detailed(arbitrID.getViolation_law_manager_detailed());
-        arbitrID.setIsViolation_requirement_compensation_harm_manager(arbitrID.getIsViolation_requirement_compensation_harm_manager());
+        arbitrID.setIs_violation_requirement_compensation_harm_manager(arbitrID.isIs_violation_requirement_compensation_harm_manager());
         arbitrID.setViolation_requirement_compensation_harm_manager_detailed(arbitrID.getViolation_requirement_compensation_harm_manager_detailed());
-        arbitrID.setIsViolation_pending_complaints(arbitrID.getIsViolation_pending_complaints());
+        arbitrID.setIs_violation_pending_complaints(arbitrID.isIs_violation_pending_complaints());
         arbitrID.setViolation_pending_complaints_detailed(arbitrID.getViolation_pending_complaints_detailed());
-        arbitrID.setIsViolation_complaints_considered(arbitrID.getIsViolation_complaints_considered());
+        arbitrID.setIs_violation_complaints_considered(arbitrID.isIs_violation_complaints_considered());
         arbitrID.setViolation_complaints_considered_detailed(arbitrID.getViolation_complaints_considered_detailed());
-        arbitrID.setIsViolation_intresting_information(arbitrID.getIsViolation_intresting_information());
+        arbitrID.setIs_violation_intresting_information(arbitrID.isIs_violation_intresting_information());
         arbitrID.setViolation_intresting_information_detailed(arbitrID.getViolation_intresting_information_detailed());
 
-        arbitrID.setIsInsurance_before(arbitrID.getIsInsurance_before());
+        arbitrID.setIs_insurance_before(arbitrID.isIs_insurance_before());
         arbitrID.setInsurance_before_company_name(arbitrID.getInsurance_before_company_name());
         arbitrID.setInsurance_before_summa(arbitrID.getInsurance_before_summa());
         arbitrID.setInsurance_before_start_date(arbitrID.getInsurance_before_start_date());
         arbitrID.setInsurance_before_end_date(arbitrID.getInsurance_before_end_date());
         arbitrID.setInsurance_before_compensation(arbitrID.getInsurance_before_compensation());
-        arbitrID.setIsInsurance_current(arbitrID.getIsInsurance_current());
+        arbitrID.setIs_insurance_current(arbitrID.isIs_insurance_current());
         arbitrID.setInsurance_current_company_name(arbitrID.getInsurance_current_company_name());
         arbitrID.setInsurance_current_summa(arbitrID.getInsurance_current_summa());
         arbitrID.setInsurance_current_start_date(arbitrID.getInsurance_current_start_date());
@@ -85,9 +85,9 @@ public class ArbitrServiceImpl implements ArbitrService {
         arbitrID.setInsurance_conditions_summa(arbitrID.getInsurance_conditions_summa());
         arbitrID.setInsurance_conditions_start_date(arbitrID.getInsurance_conditions_start_date());
         arbitrID.setInsurance_conditions_end_date(arbitrID.getInsurance_conditions_end_date());
-        arbitrID.setIs_foreign_agent(arbitrID.getIs_foreign_agent());
-        arbitrID.setIs_international_agent(arbitrID.getIs_international_agent());
-        arbitrID.setIs_russian_agent(arbitrID.getIs_russian_agent());
+        arbitrID.setIs_foreign_agent(arbitrID.isIs_foreign_agent());
+        arbitrID.setIs_international_agent(arbitrID.isIs_international_agent());
+        arbitrID.setIs_russian_agent(arbitrID.isIs_russian_agent());
 
 
 

@@ -13,8 +13,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Страхование арбитражных управляющих</title>
+
 
     <link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="${contextPath}/resources/css/common.css" rel="stylesheet">
@@ -26,18 +26,151 @@
     <![endif]-->
 
 
-   <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <script>
+        ( function( factory ) {
+            if ( typeof define === "function" && define.amd ) {
+
+// AMD. Register as an anonymous module.
+                define( [ "../widgets/datepicker" ], factory );
+            } else {
+
+// Browser globals
+                factory( jQuery.datepicker );
+            }
+        }( function( datepicker ) {
+
+            datepicker.regional.ru = {
+                closeText: "Закрыть",
+                prevText: "&#x3C;Пред",
+                nextText: "След&#x3E;",
+                currentText: "Сегодня",
+                monthNames: [ "Январь","Февраль","Март","Апрель","Май","Июнь",
+                    "Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь" ],
+                monthNamesShort: [ "Янв","Фев","Мар","Апр","Май","Июн",
+                    "Июл","Авг","Сен","Окт","Ноя","Дек" ],
+                dayNames: [ "воскресенье","понедельник","вторник","среда","четверг","пятница","суббота" ],
+                dayNamesShort: [ "вск","пнд","втр","срд","чтв","птн","сбт" ],
+                dayNamesMin: [ "Вс","Пн","Вт","Ср","Чт","Пт","Сб" ],
+                weekHeader: "Нед",
+                dateFormat: "dd.mm.yy",
+                firstDay: 1,
+                isRTL: false,
+                showMonthAfterYear: false,
+                yearSuffix: "" };
+            datepicker.setDefaults( datepicker.regional.ru );
+
+            return datepicker.regional.ru;
+
+        } ) );
+    </script>
     <script>
         $( function() {
-            $( "#datepicker" ).datepicker();
+            $( "#datepicker" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
         } );
     </script>
-</head>
+    <script>
+        $( function() {
+            $( "#datepicker1" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker2" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker3" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker4" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker5" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker6" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker7" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker8" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker9" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker10" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker11" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
 
+    <script>
+        $.datepicker.setDefaults( $.datepicker.regional[ "ru" ] );
+    </script>
+
+</head>
 <body>
 
 <div class="container" style="height: 1080px">
@@ -103,7 +236,7 @@
 
     <spring:bind path="document_id_date">
         <div class="form-arbitr7 ${status.error ? 'has-error' : ''}">
-            <form:input id="datepicker"  type="date" path="document_id_date" class="form-control" placeholder="Дата выдачи документа"></form:input>
+            <form:input id="datepicker1" type="text" path="document_id_date" class="form-control" placeholder="Дата выдачи документа"></form:input>
             <form:errors path="document_id_date"></form:errors>
         </div>
     </spring:bind>
@@ -229,7 +362,7 @@
     <spring:bind path="sro_document_date">
 
         <div class="form-arbitr18 ${status.error ? 'has-error' : ''}">
-            <form:input id="datepicker"  type="text" path="sro_document_date" class="form-control" placeholder="Дата выдачи документа"></form:input>
+            <form:input id="datepicker2"  type="text" path="sro_document_date" class="form-control" placeholder="Дата выдачи документа"></form:input>
             <form:errors path="sro_document_date"></form:errors>
         </div>
     </spring:bind>
@@ -251,7 +384,7 @@
             <spring:bind path="arbitr_start_work_date">
 
                 <div class="form-arbitr20 ${status.error ? 'has-error' : ''}">
-            <form:input id="datepicker"  type="text" path="arbitr_start_work_date" class="form-control" placeholder="Начало работы в качестве арбитражного управляющего"></form:input>
+            <form:input id="datepicker3"  type="text" path="arbitr_start_work_date" class="form-control" placeholder="Начало работы в качестве арбитражного управляющего"></form:input>
             <form:errors path="arbitr_start_work_date"></form:errors>
         </div>
     </spring:bind>
@@ -347,7 +480,7 @@
     <spring:bind path="bankrot_start_date_manage">
 
         <div class="form-arbitr26 ${status.error ? 'has-error' : ''}">
-            <form:input id="datepicker"  type="date" path="bankrot_start_date_manage" class="form-control" placeholder="Банкрот срок управления банкротством с..."></form:input>
+            <form:input id="datepicker4"  type="text" path="bankrot_start_date_manage" class="form-control" placeholder="Банкрот срок управления банкротством с..."></form:input>
             <form:errors path="bankrot_start_date_manage"></form:errors>
         </div>
     </spring:bind>
@@ -355,7 +488,7 @@
     <spring:bind path="bankrot_end_date_manage">
 
         <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-            <form:input id="datepicker"  type="date" path="bankrot_end_date_manage" class="form-control" placeholder="Банкрот срок управления банкротством по..."></form:input>
+            <form:input id="datepicker5"  type="text" path="bankrot_end_date_manage" class="form-control" placeholder="Банкрот срок управления банкротством по..."></form:input>
             <form:errors path="bankrot_end_date_manage"></form:errors>
         </div>
     </spring:bind>
@@ -429,10 +562,6 @@
                     <form:errors path="complete_procedure_tender_manager"></form:errors>
                 </div>
             </spring:bind>
-
-
-
-
 
             <spring:bind path="is_violation_discharge_of_manager">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
@@ -577,7 +706,7 @@
             </spring:bind>
             <spring:bind path="insurance_before_start_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input id="datepicker"  type="date" path="insurance_before_start_date" class="form-control"
+                    <form:input id="datepicker6"  type="text" path="insurance_before_start_date" class="form-control"
                                 placeholder="Период действия договора
 страхования с..."></form:input>
                     <form:errors path="insurance_before_start_date"></form:errors>
@@ -585,7 +714,7 @@
             </spring:bind>
             <spring:bind path="insurance_before_end_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input id="datepicker"  type="date" path="insurance_before_end_date" class="form-control"
+                    <form:input id="datepicker7"  type="text" path="insurance_before_end_date" class="form-control"
                                 placeholder="Период действия договора
 страхования по..."></form:input>
                     <form:errors path="insurance_before_end_date"></form:errors>
@@ -629,14 +758,14 @@
             </spring:bind>
             <spring:bind path="insurance_current_start_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input id="datepicker"  type="date" path="insurance_current_start_date" class="form-control"
+                    <form:input id="datepicker8"  type="text" path="insurance_current_start_date" class="form-control"
                                 placeholder="Период действия договора страхования с..."></form:input>
                     <form:errors path="insurance_current_start_date"></form:errors>
                 </div>
             </spring:bind>
             <spring:bind path="insurance_current_end_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input id="datepicker" type="date" path="insurance_current_end_date" class="form-control"
+                    <form:input id="datepicker9" type="text" path="insurance_current_end_date" class="form-control"
                                 placeholder="Период действия договора страхования по..."></form:input>
                     <form:errors path="insurance_current_end_date"></form:errors>
                 </div>
@@ -658,7 +787,7 @@
 
             <spring:bind path="insurance_conditions_start_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input id="datepicker" type="date" path="insurance_conditions_start_date" class="form-control"
+                    <form:input id="datepicker10" type="text" path="insurance_conditions_start_date" class="form-control"
                                 placeholder="Период действия договора страхования с..."></form:input>
                     <form:errors path="insurance_conditions_start_date"></form:errors>
                 </div>
@@ -667,7 +796,7 @@
 
             <spring:bind path="insurance_conditions_end_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input id="datepicker" type="date" path="insurance_conditions_end_date" class="form-control"
+                    <form:input id="datepicker11" type="text" path="insurance_conditions_end_date" class="form-control"
                                 placeholder="Период действия договора страхования по..."></form:input>
                     <form:errors path="insurance_conditions_end_date"></form:errors>
                 </div>
@@ -695,7 +824,7 @@
             </spring:bind>
             <spring:bind path="is_russian_agent">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input type="date" path="is_russian_agent" class="form-control"
+                    <form:input type="text" path="is_russian_agent" class="form-control"
                                 placeholder="Являетесь ли вы российским публичным должностным лицом или его близким"></form:input>
                     <form:errors path="is_russian_agent"></form:errors>
                 </div>
@@ -715,7 +844,8 @@
 
 
 <!-- /container -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+-->
 <script src="${contextPath}/resources/js/bootstrap.min.js"></script>
 </body>
 </html>

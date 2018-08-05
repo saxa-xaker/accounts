@@ -13,8 +13,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Страхование грузоперевозок</title>
+
 
     <link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="${contextPath}/resources/css/common.css" rel="stylesheet">
@@ -26,16 +26,95 @@
     <![endif]-->
 
 
-   <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+<script>
+( function( factory ) {
+if ( typeof define === "function" && define.amd ) {
+
+// AMD. Register as an anonymous module.
+define( [ "../widgets/datepicker" ], factory );
+} else {
+
+// Browser globals
+factory( jQuery.datepicker );
+}
+}( function( datepicker ) {
+
+datepicker.regional.ru = {
+closeText: "Закрыть",
+prevText: "&#x3C;Пред",
+nextText: "След&#x3E;",
+currentText: "Сегодня",
+monthNames: [ "Январь","Февраль","Март","Апрель","Май","Июнь",
+"Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь" ],
+monthNamesShort: [ "Янв","Фев","Мар","Апр","Май","Июн",
+"Июл","Авг","Сен","Окт","Ноя","Дек" ],
+dayNames: [ "воскресенье","понедельник","вторник","среда","четверг","пятница","суббота" ],
+dayNamesShort: [ "вск","пнд","втр","срд","чтв","птн","сбт" ],
+dayNamesMin: [ "Вс","Пн","Вт","Ср","Чт","Пт","Сб" ],
+weekHeader: "Нед",
+dateFormat: "dd.mm.yy",
+firstDay: 1,
+isRTL: false,
+showMonthAfterYear: false,
+yearSuffix: "" };
+datepicker.setDefaults( datepicker.regional.ru );
+
+return datepicker.regional.ru;
+
+} ) );
+</script>
     <script>
         $( function() {
-            $( "#datepicker" ).datepicker();
+            $( "#datepicker12" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
         } );
     </script>
+    <script>
+        $( function() {
+            $( "#datepicker13" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker14" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker15" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+    <script>
+        $( function() {
+            $( "#datepicker16" ).datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
+        } );
+    </script>
+
+        <script>
+            $.datepicker.setDefaults( $.datepicker.regional[ "ru" ] );
+        </script>
+
+
 </head>
 
 <body>
@@ -156,7 +235,7 @@
 
     <spring:bind path="driver_id_date">
         <div class="form-gruz13 ${status.error ? 'has-error' : ''}">
-            <form:input id="datepicker"  type="text" path="driver_id_date" class="form-control"
+            <form:input id="datepicker12"  type="text" path="driver_id_date" class="form-control"
                         placeholder="Водитель дата документа"></form:input>
             <form:errors path="driver_id_date"></form:errors>
         </div>
@@ -191,7 +270,7 @@
 
         <spring:bind path="document_create_date">
         <div class="form-gruz17 ${status.error ? 'has-error' : ''}">
-            <form:input id="datepicker"  type="text" path="document_create_date" class="form-control"
+            <form:input id="datepicker13"  type="text" path="document_create_date" class="form-control"
                         placeholder="Дата документа"></form:input>
             <form:errors path="document_create_date"></form:errors>
         </div>
@@ -218,7 +297,7 @@
 
         <spring:bind path="document_create_date">
             <div class="form-gruz17 ${status.error ? 'has-error' : ''}">
-                <form:input id="datepicker"  type="text" path="document_create_date" class="form-control"
+                <form:input id="datepicker14"  type="text" path="document_create_date" class="form-control"
                             placeholder="Дата документа"></form:input>
                 <form:errors path="document_create_date"></form:errors>
             </div>
@@ -297,7 +376,7 @@
 
     <spring:bind path="start_contract_date">
         <div class="form-gruz26 ${status.error ? 'has-error' : ''}">
-            <form:input id="datepicker"  type="date" path="start_contract_date" class="form-control"
+            <form:input id="datepicker15"  type="text" path="start_contract_date" class="form-control"
                         placeholder="Срок действия договора с..."></form:input>
             <form:errors path="start_contract_date"></form:errors>
         </div>
@@ -305,8 +384,8 @@
 
    <spring:bind path="end_contract_date">
         <div class="form-gruz27 ${status.error ? 'has-error' : ''}">
-            <form:input id="datepicker"  type="date" path="end_contract_date" class="form-control"
-                        placeholder=""></form:input>
+            <form:input id="datepicker16" type="text" path="end_contract_date" class="form-control"
+                        placeholder="Срок действия договора по..."></form:input>
             <form:errors path="end_contract_date"></form:errors>
         </div>
     </spring:bind>
@@ -321,7 +400,7 @@
 
 
 <!-- /container -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 <script src="${contextPath}/resources/js/bootstrap.min.js"></script>
 </body>
 </html>
