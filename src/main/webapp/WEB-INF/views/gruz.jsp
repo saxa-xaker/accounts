@@ -27,7 +27,15 @@
 
 
    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
-
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#datepicker" ).datepicker();
+        } );
+    </script>
 </head>
 
 <body>
@@ -148,7 +156,7 @@
 
     <spring:bind path="driver_id_date">
         <div class="form-gruz13 ${status.error ? 'has-error' : ''}">
-            <form:input type="text" path="driver_id_date" class="form-control"
+            <form:input id="datepicker"  type="text" path="driver_id_date" class="form-control"
                         placeholder="Водитель дата документа"></form:input>
             <form:errors path="driver_id_date"></form:errors>
         </div>
@@ -183,7 +191,7 @@
 
         <spring:bind path="document_create_date">
         <div class="form-gruz17 ${status.error ? 'has-error' : ''}">
-            <form:input type="text" path="document_create_date" class="form-control"
+            <form:input id="datepicker"  type="text" path="document_create_date" class="form-control"
                         placeholder="Дата документа"></form:input>
             <form:errors path="document_create_date"></form:errors>
         </div>
@@ -210,7 +218,7 @@
 
         <spring:bind path="document_create_date">
             <div class="form-gruz17 ${status.error ? 'has-error' : ''}">
-                <form:input type="text" path="document_create_date" class="form-control"
+                <form:input id="datepicker"  type="text" path="document_create_date" class="form-control"
                             placeholder="Дата документа"></form:input>
                 <form:errors path="document_create_date"></form:errors>
             </div>
@@ -289,7 +297,7 @@
 
     <spring:bind path="start_contract_date">
         <div class="form-gruz26 ${status.error ? 'has-error' : ''}">
-            <form:input type="date" path="start_contract_date" class="form-control"
+            <form:input id="datepicker"  type="date" path="start_contract_date" class="form-control"
                         placeholder="Срок действия договора с..."></form:input>
             <form:errors path="start_contract_date"></form:errors>
         </div>
@@ -297,7 +305,7 @@
 
    <spring:bind path="end_contract_date">
         <div class="form-gruz27 ${status.error ? 'has-error' : ''}">
-            <form:input type="date" path="end_contract_date" class="form-control"
+            <form:input id="datepicker"  type="date" path="end_contract_date" class="form-control"
                         placeholder=""></form:input>
             <form:errors path="end_contract_date"></form:errors>
         </div>

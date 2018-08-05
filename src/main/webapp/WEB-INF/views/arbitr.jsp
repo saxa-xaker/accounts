@@ -27,7 +27,15 @@
 
 
    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
-
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#datepicker" ).datepicker();
+        } );
+    </script>
 </head>
 
 <body>
@@ -69,7 +77,7 @@
 
         <spring:bind path="birthdate">
             <div class="form-arbitr4 ${status.error ? 'has-error' : ''}">
-                <form:input type="text" path="birthdate" class="form-control" placeholder="Дата рождения"></form:input>
+                <form:input id="datepicker" type="text" path="birthdate" class="form-control" placeholder="Дата рождения"></form:input>
                 <form:errors path="birthdate"></form:errors>
             </div>
         </spring:bind>
@@ -95,7 +103,7 @@
 
     <spring:bind path="document_id_date">
         <div class="form-arbitr7 ${status.error ? 'has-error' : ''}">
-            <form:input type="date" path="document_id_date" class="form-control" placeholder="Дата выдачи документа"></form:input>
+            <form:input id="datepicker"  type="date" path="document_id_date" class="form-control" placeholder="Дата выдачи документа"></form:input>
             <form:errors path="document_id_date"></form:errors>
         </div>
     </spring:bind>
@@ -221,7 +229,7 @@
     <spring:bind path="sro_document_date">
 
         <div class="form-arbitr18 ${status.error ? 'has-error' : ''}">
-            <form:input type="text" path="sro_document_date" class="form-control" placeholder="Дата выдачи документа"></form:input>
+            <form:input id="datepicker"  type="text" path="sro_document_date" class="form-control" placeholder="Дата выдачи документа"></form:input>
             <form:errors path="sro_document_date"></form:errors>
         </div>
     </spring:bind>
@@ -243,7 +251,7 @@
             <spring:bind path="arbitr_start_work_date">
 
                 <div class="form-arbitr20 ${status.error ? 'has-error' : ''}">
-            <form:input type="text" path="arbitr_start_work_date" class="form-control" placeholder="Начало работы в качестве арбитражного управляющего"></form:input>
+            <form:input id="datepicker"  type="text" path="arbitr_start_work_date" class="form-control" placeholder="Начало работы в качестве арбитражного управляющего"></form:input>
             <form:errors path="arbitr_start_work_date"></form:errors>
         </div>
     </spring:bind>
@@ -313,7 +321,7 @@
     <spring:bind path="bankrot_company_address">
 
         <div class="form-arbitr26 ${status.error ? 'has-error' : ''}">
-            <form:input type="date" path="bankrot_company_address" class="form-control" placeholder="Банкрот адрес предприятия"></form:input>
+            <form:input type="text" path="bankrot_company_address" class="form-control" placeholder="Банкрот адрес предприятия"></form:input>
             <form:errors path="bankrot_company_address"></form:errors>
         </div>
     </spring:bind>
@@ -322,7 +330,7 @@
     <spring:bind path="bankrot_company_case_number">
 
         <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-            <form:input type="date" path="bankrot_company_case_number" class="form-control" placeholder="Банкрот номер дела"></form:input>
+            <form:input type="text" path="bankrot_company_case_number" class="form-control" placeholder="Банкрот номер дела"></form:input>
             <form:errors path="bankrot_company_case_number"></form:errors>
         </div>
     </spring:bind>
@@ -331,7 +339,7 @@
     <spring:bind path="bankrot_procedure_type">
 
         <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-            <form:input type="date" path="bankrot_procedure_type" class="form-control" placeholder="Банкрот вид процедуры банкротства"></form:input>
+            <form:input type="text" path="bankrot_procedure_type" class="form-control" placeholder="Банкрот вид процедуры банкротства"></form:input>
             <form:errors path="bankrot_procedure_type"></form:errors>
         </div>
     </spring:bind>
@@ -339,7 +347,7 @@
     <spring:bind path="bankrot_start_date_manage">
 
         <div class="form-arbitr26 ${status.error ? 'has-error' : ''}">
-            <form:input type="date" path="bankrot_start_date_manage" class="form-control" placeholder="Банкрот срок управления банкротством с..."></form:input>
+            <form:input id="datepicker"  type="date" path="bankrot_start_date_manage" class="form-control" placeholder="Банкрот срок управления банкротством с..."></form:input>
             <form:errors path="bankrot_start_date_manage"></form:errors>
         </div>
     </spring:bind>
@@ -347,7 +355,7 @@
     <spring:bind path="bankrot_end_date_manage">
 
         <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-            <form:input type="date" path="bankrot_end_date_manage" class="form-control" placeholder="Банкрот срок управления банкротством по..."></form:input>
+            <form:input id="datepicker"  type="date" path="bankrot_end_date_manage" class="form-control" placeholder="Банкрот срок управления банкротством по..."></form:input>
             <form:errors path="bankrot_end_date_manage"></form:errors>
         </div>
     </spring:bind>
@@ -569,7 +577,7 @@
             </spring:bind>
             <spring:bind path="insurance_before_start_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input type="date" path="insurance_before_start_date" class="form-control"
+                    <form:input id="datepicker"  type="date" path="insurance_before_start_date" class="form-control"
                                 placeholder="Период действия договора
 страхования с..."></form:input>
                     <form:errors path="insurance_before_start_date"></form:errors>
@@ -577,7 +585,7 @@
             </spring:bind>
             <spring:bind path="insurance_before_end_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input type="date" path="insurance_before_end_date" class="form-control"
+                    <form:input id="datepicker"  type="date" path="insurance_before_end_date" class="form-control"
                                 placeholder="Период действия договора
 страхования по..."></form:input>
                     <form:errors path="insurance_before_end_date"></form:errors>
@@ -621,14 +629,14 @@
             </spring:bind>
             <spring:bind path="insurance_current_start_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input type="date" path="insurance_current_start_date" class="form-control"
+                    <form:input id="datepicker"  type="date" path="insurance_current_start_date" class="form-control"
                                 placeholder="Период действия договора страхования с..."></form:input>
                     <form:errors path="insurance_current_start_date"></form:errors>
                 </div>
             </spring:bind>
             <spring:bind path="insurance_current_end_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input type="date" path="insurance_current_end_date" class="form-control"
+                    <form:input id="datepicker" type="date" path="insurance_current_end_date" class="form-control"
                                 placeholder="Период действия договора страхования по..."></form:input>
                     <form:errors path="insurance_current_end_date"></form:errors>
                 </div>
@@ -650,7 +658,7 @@
 
             <spring:bind path="insurance_conditions_start_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input type="date" path="insurance_conditions_start_date" class="form-control"
+                    <form:input id="datepicker" type="date" path="insurance_conditions_start_date" class="form-control"
                                 placeholder="Период действия договора страхования с..."></form:input>
                     <form:errors path="insurance_conditions_start_date"></form:errors>
                 </div>
@@ -659,7 +667,7 @@
 
             <spring:bind path="insurance_conditions_end_date">
                 <div class="form-arbitr27 ${status.error ? 'has-error' : ''}">
-                    <form:input type="date" path="insurance_conditions_end_date" class="form-control"
+                    <form:input id="datepicker" type="date" path="insurance_conditions_end_date" class="form-control"
                                 placeholder="Период действия договора страхования по..."></form:input>
                     <form:errors path="insurance_conditions_end_date"></form:errors>
                 </div>

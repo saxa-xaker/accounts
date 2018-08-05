@@ -24,13 +24,13 @@ import java.util.Date;
 @Controller
 public class DocsController {
 
-    @DateTimeFormat(pattern = "dd.MM.yyyy")
+    @DateTimeFormat(pattern = "dd/MM/yyyy")
     @Temporal(TemporalType.DATE)
 
     @InitBinder
     public void initBinder(WebDataBinder binder){
         binder.registerCustomEditor(       Date.class,
-                new CustomDateEditor(new SimpleDateFormat("dd.MM.yyyy"), true, 10));
+                new CustomDateEditor(new SimpleDateFormat("dd/MM/yyyy"), true, 10));
     }
     @Autowired
     private DocsService docsService;
