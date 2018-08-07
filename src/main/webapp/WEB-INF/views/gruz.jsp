@@ -15,19 +15,17 @@
     <meta name="author" content="">
     <title>Страхование грузоперевозок</title>
 
-
     <link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="${contextPath}/resources/css/common.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
     <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
@@ -122,7 +120,7 @@ return datepicker.regional.ru;
 <div class="container" style="height: 1080px">
 
     <%--@elvariable id="userForm" type="javax"--%>
-    <form:form method="POST" modelAttribute="userForm" class="form-signin">
+    <form:form method="POST" modelAttribute="userForm" class="form-gruz">
         <h2 class="form-signin-heading">Заполнение полей договора</h2>
 
 

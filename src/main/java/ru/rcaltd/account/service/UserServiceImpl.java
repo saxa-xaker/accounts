@@ -1,11 +1,11 @@
 package ru.rcaltd.account.service;
 
-import ru.rcaltd.account.model.User;
-import ru.rcaltd.account.repository.RoleRepository;
-import ru.rcaltd.account.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import ru.rcaltd.account.model.User;
+import ru.rcaltd.account.repository.RoleRepository;
+import ru.rcaltd.account.repository.UserRepository;
 
 import java.util.HashSet;
 
@@ -28,6 +28,7 @@ public class UserServiceImpl implements UserService {
 
     public void read() {
         User user = new User();
+        user.getUsername();
         user.getPassword();
 
     }

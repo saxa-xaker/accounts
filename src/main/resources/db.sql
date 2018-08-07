@@ -50,11 +50,11 @@ CREATE TABLE `document_id` (
   `driver_id_type` varchar(255) DEFAULT NULL,
   `driver_id` varchar(255) DEFAULT NULL,
   `driver_id_number` varchar(255) DEFAULT NULL,
-  `driver_id_date` date (255) DEFAULT NULL,
+  `driver_id_date` date DEFAULT NULL,
   `documents_in_package` varchar(255) DEFAULT NULL,
   `documents_type` varchar(255) DEFAULT NULL,
   `documents_number` varchar(255) DEFAULT NULL,
-  `document_create_date` date (255) DEFAULT NULL,
+  `document_create_date` date DEFAULT NULL,
   `number_of_products` varchar(255) DEFAULT NULL,
   `number_of_seats` varchar(255) DEFAULT NULL,
   `cargo_gross_weight` varchar(255) DEFAULT NULL,
@@ -63,8 +63,8 @@ CREATE TABLE `document_id` (
   `item_weight` varchar(255) DEFAULT NULL,
   `goods_cost` varchar(255) DEFAULT NULL,
   `currency` varchar(255) DEFAULT NULL,
-  `start_contract_date` date (255) DEFAULT NULL,
-  `end_contract_date` date (255) DEFAULT NULL,
+  `start_contract_date` date DEFAULT NULL,
+  `end_contract_date` date DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 

@@ -3,9 +3,18 @@ body {
     padding-bottom: 40px;
     background-color: #eee;
 }
-
+.form-gruz{
+    max-width: 1080px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-arbitr{
+    max-width: 1080px;
+    padding: 15px;
+    margin: 0 auto;
+}
 .form-signin {
-    max-width: 1360px;
+    max-width: 360px;
     padding: 15px;
     margin: 0 auto;
 }
@@ -18,8 +27,16 @@ body {
 .form-signin .checkbox {
     font-weight: normal;
 }
-
-.form-signin .form-control {
+.form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin {
     position: relative;
     height: auto;
     -webkit-box-sizing: border-box;
@@ -46,6 +63,77 @@ body {
 .has-error {
     color: red
 }
+
+
+                        /*   ################--- margin 5px ---################   */
+
+.mt-5{
+    margin-top: 5px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+
+
+
+                    /*   ################--- margin 50px ---################   */
+
+
+.mt-50{
+    margin-top: 50px;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mr-50{
+    margin-right: 50px;
+}
+
+
+                    /*   #################--- padding 5px ---##################   */
+
+.pt-5{
+    padding-top: 5px;
+}
+.pl-5{
+    padding-left: 5px;
+}
+.pb-5{
+    padding-bottom: 5px;
+}
+.pr-5{
+    padding-right: 5px;
+}
+
+
+                    /*   #################--- padding 50px ---##################   */
+
+
+.pt-50{
+    padding-top: 50px;
+}
+.pl-50{
+    padding-left: 50px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.pr-50{
+    padding-right: 50px;
+}
+
+
+                    /*   ###############--- myBootStrap for Gruz ---################   */
+
 
 .form-gruz1{
     position: relative;
@@ -77,6 +165,7 @@ body {
     top: -107px;
     width: 520px;
 }
+
 .form-gruz6{
     position: relative;
     left: 0px;
@@ -107,6 +196,8 @@ body {
     top: -56px;
     width: 250px;
 }
+
+
 .form-gruz11{
     position: relative;
     left: 270px;
@@ -137,6 +228,7 @@ body {
     top: -55px;
     width: 330px;
 }
+
 .form-gruz16{
     position: relative;
     left: 540px;
@@ -167,6 +259,8 @@ body {
     top: -108px;
     width:170px;
 }
+
+
 .form-gruz21{
     position: relative;
     left: 0px;
@@ -196,6 +290,7 @@ body {
     top: -272px;
     width:180px;
 }
+
 .form-gruz26{
     position: relative;
     left: 0px;
@@ -210,14 +305,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
+                    /*   ##############--- myBootStrap For Arbitr ---#############   */
 
 
 .form-arbitr1{
@@ -250,6 +338,7 @@ body {
     top: 0px;
     width: 170px;
 }
+
 .form-arbitr6{
     position: relative;
     left: 190px;
@@ -281,6 +370,7 @@ body {
     width: 250px;
 }
 
+
 .form-arbitr11{
     position: relative;
     left: 270px;
@@ -311,6 +401,7 @@ body {
     top: -55px;
     width: 330px;
 }
+
 .form-arbitr16{
     position: relative;
     left: 540px;
@@ -341,6 +432,7 @@ body {
     top: -108px;
     width:170px;
 }
+
 
 .form-arbitr21{
     position: relative;
@@ -373,6 +465,7 @@ body {
     top: -272px;
     width:180px;
 }
+
 .form-arbitr26{
     position: relative;
     left: 0px;
@@ -404,6 +497,7 @@ body {
     width: 250px;
 }
 
+
 .form-arbitr31{
     position: relative;
     left: 0px;
@@ -434,6 +528,7 @@ body {
     top: -107px;
     width: 520px;
 }
+
 .form-arbitr36{
     position: relative;
     left: 0px;
@@ -465,6 +560,7 @@ body {
     width: 250px;
 }
 
+
 .form-arbitr41{
     position: relative;
     left: 0px;
@@ -495,6 +591,7 @@ body {
     top: -107px;
     width: 520px;
 }
+
 .form-arbitr46{
     position: relative;
     left: 0px;
@@ -526,6 +623,7 @@ body {
     width: 250px;
 }
 
+
 .form-arbitr51{
     position: relative;
     left: 0px;
@@ -556,6 +654,7 @@ body {
     top: -107px;
     width: 520px;
 }
+
 .form-arbitr56{
     position: relative;
     left: 0px;
@@ -588,6 +687,8 @@ body {
 }
 
 
+                    /*   ################--- buttons for Gruz ---################   */
+
 
 .btn-gruz-place{
     position: relative;
@@ -595,13 +696,33 @@ body {
     top: 680px;
     width:250px;
 }
-
 .btn-gruz-place2{
     position: relative;
     left: 800px;
     top: 620px;
     width:250px;
 }
+
+
+                    /*   ################--- buttons for Arbitr ---################   */
+
+
+.btn-arbitr-place{
+    position: relative;
+    left: 20px;
+    top: 680px;
+    width:250px;
+}
+.btn-arbitr-place2{
+    position: relative;
+    left: 800px;
+    top: 620px;
+    width:250px;
+}
+
+
+                    /*   ################--- *************** ---################   */
+
 
 .ui-widget{
 

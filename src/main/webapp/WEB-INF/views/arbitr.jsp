@@ -176,7 +176,7 @@
 <div class="container" style="height: 1080px">
 
     <%--@elvariable id="userForm" type="javax"--%>
-    <form:form method="POST" modelAttribute="userForm" class="form-signin">
+    <form:form method="POST" modelAttribute="userForm" class="form-arbitr">
         <h2 class="form-signin-heading">Заполнение полей анкеты арбитражного управляющего</h2>
 
 

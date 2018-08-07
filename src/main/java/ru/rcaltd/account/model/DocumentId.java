@@ -43,6 +43,24 @@ public class DocumentId {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
 
+/*
+    public DocumentId getUserPass(int id) {
+
+        DBWorker dbWorker = new DBWorker();
+
+
+        String query = "SELECT insurant, shipper FROM accounts.document_id";
+        ResultSet resultSet = null;
+        String myQuery = null;
+        try {
+            Statement statement = dbWorker.getConnection().createStatement();
+            resultSet = statement.executeQuery(query);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return (DocumentId) resultSet;
+    }
+*/
 
     public Long getId() {
         return id;
